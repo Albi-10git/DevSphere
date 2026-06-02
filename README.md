@@ -1,4 +1,4 @@
-# Fitness Landing Page Projects
+# FitSync and Apex Fitness Websites
 
 This workspace contains two fitness landing page prototypes built with static HTML and CSS styling.
 
