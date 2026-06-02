@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitSync AI</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Global Custom Styles for Smooth Scroll Compatibility -->
+    <style>
+        html {
+            scroll-behavior: smooth !important;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-950 text-white font-sans scroll-smooth">
+
+    <!-- HEADER -->
+    <header class="bg-black shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center p-5">
+            <a href="#home" class="text-3xl font-bold text-cyan-400 hover:text-cyan-300 transition duration-200">
+                FitSync AI
+            </a>
+            
+            <ul class="hidden md:flex gap-8 text-lg">
+                <li><a href="#about" class="hover:text-cyan-400 transition">About</a></li>
+                <li><a href="#features" class="hover:text-cyan-400 transition">Features</a></li>
+                <li><a href="#plans" class="hover:text-cyan-400 transition">Plans</a></li>
+                <li><a href="#coaches" class="hover:text-cyan-400 transition">Coaches</a></li>
+                <li><a href="#bmi" class="hover:text-cyan-400 transition">BMI Calculator</a></li>
+                <li><a href="#stats" class="hover:text-cyan-400 transition">Progress</a></li>
+                <li><a href="#contact" class="hover:text-cyan-400 transition">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-black via-gray-900 to-cyan-900 relative overflow-hidden">
+            <div class="absolute inset-0 opacity-20">
+                <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1920&auto=format&fit=crop" alt="Gym Background" class="w-full h-full object-cover">
+            </div>
+            <div class="text-center px-6 relative z-10">
+                <h2 class="text-6xl font-extrabold leading-tight">
+                    Smart Fitness <br>
+                    Powered By <span class="text-cyan-400">AI</span>
+                </h2>
+                <p class="mt-6 text-xl text-gray-300 max-w-2xl mx-auto">
+                    Track workouts, monitor calories, connect smart wearables, and achieve your dream fitness goals seamlessly.
+                </p>
+                <a href="#plans" class="inline-block mt-10 bg-cyan-400 text-black px-8 py-4 rounded-xl text-lg font-bold hover:bg-cyan-300 transition shadow-lg shadow-cyan-500/20">
+                    Start Your Journey
+                </a>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="py-24 bg-gray-950">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col lg:flex-row items-center gap-12">
+                    <div class="w-full lg:w-1/2">
+                        <h3 class="text-4xl font-bold mb-6 text-cyan-400">Next-Gen Hybrid Training</h3>
+                        <p class="text-gray-400 text-lg leading-relaxed">
+                            Welcome to the future of conditioning. Located in Bangalore, our physical facility pairs pristine cardio architecture and premium heavy-iron spaces with real-time generative physical metrics monitoring.
+                        </p>
+                        <p class="text-gray-400 text-lg mt-4 leading-relaxed">
+                            Every squat rack, cable system, and free-weight compound node pairs with your cloud dashboard to optimize mechanical workload output instantly.
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-1/2 grid grid-cols-2 gap-4">
+                        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=600&auto=format&fit=crop" alt="Strength Infrastructure" class="rounded-2xl shadow-xl hover:opacity-80 transition object-cover h-64 w-full">
+                        <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=600&auto=format&fit=crop" alt="Group Training" class="rounded-2xl shadow-xl hover:opacity-80 transition object-cover h-64 w-full mt-8">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES SECTION -->
+        <section id="features" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h3 class="text-5xl font-bold text-center mb-16">Smart Features</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <article class="bg-black p-8 rounded-2xl shadow-lg border border-cyan-500 hover:scale-105 transition">
+                        <i class="fas fa-brain text-5xl text-cyan-400"></i>
+                        <h4 class="text-2xl font-bold mt-6">AI Workout Plans</h4>
+                        <p class="text-gray-400 mt-4">Personalized workout routines generated using deep target analysis.</p>
+                    </article>
+                    <article class="bg-black p-8 rounded-2xl shadow-lg border border-cyan-500 hover:scale-105 transition">
+                        <i class="fas fa-fire text-5xl text-orange-400"></i>
+                        <h4 class="text-2xl font-bold mt-6">Calorie Tracking</h4>
+                        <p class="text-gray-400 mt-4">Monitor active mechanical calories burned and daily macros.</p>
+                    </article>
+                    <article class="bg-black p-8 rounded-2xl shadow-lg border border-cyan-500 hover:scale-105 transition">
+                        <i class="fas fa-clock text-5xl text-green-400"></i>
+                        <h4 class="text-2xl font-bold mt-6">Smart Wearables</h4>
+                        <p class="text-gray-400 mt-4">Connect your telemetry band and monitor cardiac strain data live.</p>
+                    </article>
+                    <article class="bg-black p-8 rounded-2xl shadow-lg border border-cyan-500 hover:scale-105 transition">
+                        <i class="fas fa-chart-line text-5xl text-pink-400"></i>
+                        <h4 class="text-2xl font-bold mt-6">Progress Analytics</h4>
+                        <p class="text-gray-400 mt-4">Visualize body fat composition offsets using line tracking graphs.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEMBERSHIP PLANS -->
+        <section id="plans" class="py-24 bg-gray-950">
+            <div class="container mx-auto px-6">
+                <h3 class="text-5xl font-bold text-center mb-16">Membership Plans</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <article class="bg-gray-900 p-10 rounded-2xl border border-gray-700 text-center flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-3xl font-bold text-cyan-400">Basic Pass</h4>
+                            <p class="text-5xl font-bold mt-6">₹999</p>
+                            <ul class="mt-8 space-y-4 text-gray-400">
+                                <li>Standard Gym Floor Access</li>
+                                <li>Basic Static Workout Models</li>
+                                <li>Weekly Digital Performance Slips</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="bg-cyan-400 text-black p-10 rounded-2xl text-center scale-105 shadow-2xl flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-3xl font-bold">Pro Account</h4>
+                            <p class="text-5xl font-bold mt-6">₹1,999</p>
+                            <ul class="mt-8 space-y-4 font-semibold">
+                                <li>Adaptive Generative AI Coaching</li>
+                                <li>Dynamic Nutrition Macro Profiles</li>
+                                <li>Full Live Device Wearable Sync</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="bg-gray-900 p-10 rounded-2xl border border-gray-700 text-center flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-3xl font-bold text-cyan-400">Elite Squad</h4>
+                            <p class="text-5xl font-bold mt-6">₹2,999</p>
+                            <ul class="mt-8 space-y-4 text-gray-400">
+                                <li>1-on-1 Dedicated Human/AI Coach</li>
+                                <li>24/7 Metabolic Bio-Metric Safety Monitor</li>
+                                <li>Custom Organic Meal Plan Deliveries</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWLY INTEGRATED SECTION: EXPERT COACHES -->
+        <section id="coaches" class="py-24 bg-black">
+            <div class="container mx-auto px-6">
+                <h3 class="text-5xl font-bold text-center mb-16">Expert Coaches</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+                    <!-- COACH 1 -->
+                    <article class="bg-gray-900 p-8 rounded-2xl border border-gray-800 text-center flex flex-col items-center hover:border-cyan-500/50 transition duration-300">
+                        <div class="w-24 h-24 bg-gray-800 text-cyan-400 text-4xl rounded-full flex items-center justify-center mb-6 border-2 border-cyan-400 shadow-lg shadow-cyan-400/20">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold">Coach Arjun</h4>
+                        <p class="text-cyan-400 font-semibold tracking-wide mt-1 mb-4 text-sm uppercase">Strength & Conditioning</p>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            With 10+ years of training athletes in Bangalore, Arjun specializes in biomechanics optimization and high-output strength programming.
+                        </p>
+                    </article>
+                    <!-- COACH 2 -->
+                    <article class="bg-gray-900 p-8 rounded-2xl border border-gray-800 text-center flex flex-col items-center hover:border-cyan-500/50 transition duration-300">
+                        <div class="w-24 h-24 bg-gray-800 text-orange-400 text-4xl rounded-full flex items-center justify-center mb-6 border-2 border-orange-400 shadow-lg shadow-orange-400/20">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <h4 class="text-2xl font-bold">Coach Priya</h4>
+                        <p class="text-orange-400 font-semibold tracking-wide mt-1 mb-4 text-sm uppercase">HIIT & Metabolic Training</p>
+                        <p class="text-gray-400 text-sm leading-relaxed">
+                            A certified sports nutritionist focusing on dynamic fat-loss circuits, interval pacing routines, and sustainable lifestyle transformation models.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+                    
+        <!-- BMI CALCULATOR -->
+        <section id="bmi" class="py-24 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <h3 class="text-5xl font-bold text-center mb-16">Check Your Fitness</h3>
+                
+                <div class="max-w-xl mx-auto bg-black p-8 md:p-10 rounded-3xl border border-cyan-500/30 shadow-2xl shadow-cyan-500/5">
+                    <h4 class="text-2xl font-bold text-center text-cyan-400 mb-8">Calculate Your BMI</h4>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <div class="flex flex-col gap-2">
+                            <label class="text-xs font-bold uppercase tracking-wider text-gray-400">Weight (kg)</label>
+                            <input type="number" id="weight" placeholder="e.g. 70" min="1" 
+                                class="w-full bg-gray-900 border-2 border-gray-800 focus:border-cyan-400 outline-none p-4 rounded-xl text-white text-lg transition">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label class="text-xs font-bold uppercase tracking-wider text-gray-400">Height (cm)</label>
+                            <input type="number" id="height" placeholder="e.g. 175" min="1" 
+                                class="w-full bg-gray-900 border-2 border-gray-800 focus:border-cyan-400 outline-none p-4 rounded-xl text-white text-lg transition">
+                        </div>
+                    </div>
+                    
+                    <button onclick="calculateBMI()" 
+                        class="w-full bg-cyan-400 hover:bg-cyan-300 text-black font-extrabold text-lg py-4 rounded-xl tracking-wide uppercase transition active:scale-[0.99]">
+                        Calculate Now
+                    </button>
+                    
+                    <div id="bmi-result" class="mt-8 text-center text-lg font-bold text-gray-400 bg-gray-950/60 py-4 px-6 rounded-xl border border-gray-800 min-h-[60px] flex items-center justify-center">
+                        Enter your metrics above to view analysis.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMMUNITY PROGRESS STATS -->
+        <section id="stats" class="py-24 bg-black">
+            <div class="container mx-auto px-6 text-center">
+                <h3 class="text-5xl font-bold mb-16">Community Progress</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <article class="bg-gray-900 p-10 rounded-2xl">
+                        <h4 class="text-5xl font-bold text-cyan-400">15K+</h4>
+                        <p class="mt-4 text-gray-400">Active Users</p>
+                    </article>
+                    <article class="bg-gray-900 p-10 rounded-2xl">
+                        <h4 class="text-5xl font-bold text-green-400">1M+</h4>
+                        <p class="mt-4 text-gray-400">Calories Burned</p>
+                    </article>
+                    <article class="bg-gray-900 p-10 rounded-2xl">
+                        <h4 class="text-5xl font-bold text-pink-400">500K+</h4>
+                        <p class="mt-4 text-gray-400">Workouts Completed</p>
+                    </article>
+                    <article class="bg-gray-900 p-10 rounded-2xl">
+                        <h4 class="text-5xl font-bold text-orange-400">98%</h4>
+                        <p class="mt-4 text-gray-400">Transformation Success</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="py-20 bg-gray-900">
+            <div class="container mx-auto text-center px-6">
+                <h3 class="text-5xl font-bold">Contact Us</h3>
+                <p class="mt-6 text-gray-400 text-lg">Email: support@fitsyncai.com</p>
+                <p class="mt-3 text-gray-400 text-lg">Phone: +91 9876543210</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-center py-6 text-gray-500 border-t border-gray-900">
+        <p>© 2026 FitSync AI | Department of Computer Science</p>
+    </footer>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        function calculateBMI() {
+            const weight = parseFloat(document.getElementById('weight').value);
+            const height = parseFloat(document.getElementById('height').value) / 100;
+
+            const resultDiv = document.getElementById('bmi-result');
+
+            if (weight > 0 && height > 0) {
+                const bmi = (weight / (height * height)).toFixed(1);
+                let category = "";
+                let colorClass = "";
+
+                if (bmi < 18.5) {
+                    category = "Underweight";
+                    colorClass = "text-yellow-400";
+                } else if (bmi < 24.9) {
+                    category = "Normal Weight";
+                    colorClass = "text-green-400";
+                } else if (bmi < 29.9) {
+                    category = "Overweight";
+                    colorClass = "text-orange-400";
+                } else {
+                    category = "Obese";
+                    colorClass = "text-red-500";
+                }
+
+                resultDiv.innerHTML = `Your BMI is <span class="text-cyan-400 mx-1">${bmi}</span> (<span class="${colorClass}">${category}</span>)`;
+                resultDiv.className = "mt-8 text-center text-lg font-bold bg-gray-950/60 py-4 px-6 rounded-xl border border-cyan-500/30 min-h-[60px] flex items-center justify-center transition duration-300";
+            } else {
+                resultDiv.innerText = "Please enter valid numbers!";
+                resultDiv.className = "mt-8 text-center text-lg font-bold text-red-400 bg-gray-950/60 py-4 px-6 rounded-xl border border-red-500/20 min-h-[60px] flex items-center justify-center";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
